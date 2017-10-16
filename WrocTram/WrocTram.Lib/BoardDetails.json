@@ -1,0 +1,264 @@
+﻿{
+  "12303": {
+    "board": [
+      {
+        "line": "140",
+        "minuteCount": 0,
+        "routeBegin": false,
+        "currentStop": {
+          "s": "12303",
+          "x": 16.98343,
+          "y": 51.1256,
+          "t": "b",
+          "n": "KWISKA",
+          "symbol": "12303",
+          "name": "KWISKA"
+        },
+        "code": 5415,
+        "direction": "KWISKA",
+        "distance": 16,
+        "floor": "l",
+        "ac": true,
+        "lag": 4300,
+        "delay": 5,
+        "departure": "19:28",
+        "scheduledDeparture": "Jan 1, 1900 7:28:00 PM",
+        "scheduledDepartureTime": "19:28"
+      },
+      {
+        "line": "101",
+        "minuteCount": 3,
+        "routeBegin": false,
+        "currentStop": {
+          "s": "12702",
+          "x": 16.972918,
+          "y": 51.13278,
+          "t": "b",
+          "n": "KOLISTA",
+          "symbol": "12702",
+          "name": "KOLISTA"
+        },
+        "nextStop": {
+          "s": "12317",
+          "x": 16.98539,
+          "y": 51.129112,
+          "t": "b",
+          "n": "WEJHEROWSKA",
+          "symbol": "12317",
+          "name": "WEJHEROWSKA"
+        },
+        "code": 7016,
+        "direction": "KWISKA",
+        "distance": -257,
+        "floor": "l",
+        "ac": false,
+        "lag": 39300,
+        "delay": 0,
+        "departure": "19:36",
+        "scheduledDeparture": "Jan 1, 1900 7:36:00 PM",
+        "scheduledDepartureTime": "19:36"
+      },
+      {
+        "line": "128",
+        "minuteCount": 7,
+        "routeBegin": false,
+        "currentStop": {
+          "s": "10515",
+          "x": 17.01255,
+          "y": 51.12186,
+          "t": "b",
+          "n": "POZNAŃSKA",
+          "symbol": "10515",
+          "name": "POZNAŃSKA"
+        },
+        "nextStop": {
+          "s": "10517",
+          "x": 17.00999,
+          "y": 51.12524,
+          "t": "b",
+          "n": "DŁUGA (POLITECHNIKA)",
+          "symbol": "10517",
+          "name": "DŁUGA (POLITECHNIKA)"
+        },
+        "code": 8300,
+        "direction": "PILCZYCE",
+        "distance": -17,
+        "floor": "l",
+        "ac": false,
+        "lag": 94374,
+        "delay": 0,
+        "departure": "19:40",
+        "scheduledDeparture": "Jan 1, 1900 7:40:00 PM",
+        "scheduledDepartureTime": "19:40"
+      },
+      {
+        "line": "119",
+        "minuteCount": 8,
+        "routeBegin": false,
+        "currentStop": {
+          "s": "23107",
+          "x": 17.00459,
+          "y": 51.13536,
+          "t": "b",
+          "n": "OSOBOWICKA (CMENTARZ)",
+          "symbol": "23107",
+          "name": "OSOBOWICKA (CMENTARZ)"
+        },
+        "nextStop": {
+          "s": "23109",
+          "x": 16.9995,
+          "y": 51.136665,
+          "t": "b",
+          "n": "MOST MILENIJNY",
+          "symbol": "23109",
+          "name": "MOST MILENIJNY"
+        },
+        "code": 8121,
+        "direction": "BLACHARSKA",
+        "distance": -31,
+        "floor": "l",
+        "ac": false,
+        "lag": 114295,
+        "delay": 6,
+        "departure": "19:35",
+        "scheduledDeparture": "Jan 1, 1900 7:35:00 PM",
+        "scheduledDepartureTime": "19:35"
+      },
+      {
+        "line": "122",
+        "minuteCount": 15,
+        "routeBegin": false,
+        "currentStop": {
+          "s": "10501",
+          "x": 17.020784,
+          "y": 51.112255,
+          "t": "b",
+          "n": "PL. JANA PAWŁA II",
+          "symbol": "10501",
+          "name": "PL. JANA PAWŁA II"
+        },
+        "nextStop": {
+          "s": "10501",
+          "x": 17.020784,
+          "y": 51.112255,
+          "t": "b",
+          "n": "PL. JANA PAWŁA II",
+          "symbol": "10501",
+          "name": "PL. JANA PAWŁA II"
+        },
+        "code": 8328,
+        "direction": "NOWY DWÓR (PĘTLA)",
+        "distance": 133,
+        "floor": "l",
+        "ac": true,
+        "lag": 9375,
+        "delay": -2,
+        "departure": "19:50",
+        "scheduledDeparture": "Jan 1, 1900 7:50:00 PM",
+        "scheduledDepartureTime": "19:50"
+      },
+      {
+        "line": "129",
+        "minuteCount": 20,
+        "routeBegin": false,
+        "currentStop": {
+          "s": "23522",
+          "x": 17.029278,
+          "y": 51.150696,
+          "t": "b",
+          "n": "POŚWIĘTNE",
+          "symbol": "23522",
+          "name": "POŚWIĘTNE"
+        },
+        "nextStop": {
+          "s": "23128",
+          "x": 17.029997,
+          "y": 51.147316,
+          "t": "b",
+          "n": "WOŁOWSKA",
+          "symbol": "23128",
+          "name": "WOŁOWSKA"
+        },
+        "code": 4005,
+        "direction": "JERZMANOWO (CMENTARZ I)",
+        "distance": -34,
+        "floor": "l",
+        "ac": true,
+        "lag": 9232,
+        "delay": 1,
+        "departure": "19:52",
+        "scheduledDeparture": "Jan 1, 1900 7:52:00 PM",
+        "scheduledDepartureTime": "19:52"
+      },
+      {
+        "line": "128",
+        "minuteCount": 22,
+        "routeBegin": false,
+        "currentStop": {
+          "s": "20722",
+          "x": 17.052586,
+          "y": 51.122597,
+          "t": "b",
+          "n": "WYSZYŃSKIEGO",
+          "symbol": "20722",
+          "name": "WYSZYŃSKIEGO"
+        },
+        "nextStop": {
+          "s": "20902",
+          "x": 17.051104,
+          "y": 51.117317,
+          "t": "b",
+          "n": "OGRÓD BOTANICZNY",
+          "symbol": "20902",
+          "name": "OGRÓD BOTANICZNY"
+        },
+        "code": 8302,
+        "direction": "PILCZYCE",
+        "distance": 14,
+        "floor": "l",
+        "ac": false,
+        "lag": 29374,
+        "delay": 0,
+        "departure": "19:55",
+        "scheduledDeparture": "Jan 1, 1900 7:55:00 PM",
+        "scheduledDepartureTime": "19:55"
+      },
+      {
+        "line": "101",
+        "minuteCount": 28,
+        "routeBegin": false,
+        "currentStop": {
+          "s": "18121",
+          "x": 16.87596,
+          "y": 51.14568,
+          "t": "b",
+          "n": "JELENIOGÓRSKA",
+          "symbol": "18121",
+          "name": "JELENIOGÓRSKA"
+        },
+        "nextStop": {
+          "s": "18123",
+          "x": 16.879404,
+          "y": 51.14965,
+          "t": "b",
+          "n": "ŚNIEŻNA",
+          "symbol": "18123",
+          "name": "ŚNIEŻNA"
+        },
+        "code": 7033,
+        "direction": "KWISKA",
+        "distance": -4,
+        "floor": "l",
+        "ac": false,
+        "lag": 19227,
+        "delay": 0,
+        "departure": "20:01",
+        "scheduledDeparture": "Jan 1, 1900 8:01:00 PM",
+        "scheduledDepartureTime": "20:01"
+      }
+    ],
+    "name": "KWISKA",
+    "direction": "0 -> TYNIECKA (PĘTLA), 101 -> KWISKA, 101 -> PRACZE ODRZAŃSKIE, 101 -> LEŚNICA, 106 -> PORT LOTNICZY, 119 -> BLACHARSKA, 122 -> NOWY DWÓR (PĘTLA), 128 -> PILCZYCE, 129 -> JERZMANOWO (CMENTARZ I), 133 -> GAJ, 134 -> KSIĘŻE WIELKIE, 134 -> NOWY DWÓR (PĘTLA), 134 -> TARNOGAJ, 136 -> GAJ, 136 -> TARNOGAJ, 140 -> KWISKA, 243 -> LEŚNICA, 243 -> PILCZYCE, 253 -> LEŚNICA, 319 -> FAT, 319 -> TYNIECKA (PĘTLA), 607 -> BISKUPICE PODGÓRNE LG DISPLAY, 607 -> KWISKA, 607 -> BISKUPICE PODGÓRNE LG ELECTRONICS, ",
+    "id": "12303"
+  }
+}

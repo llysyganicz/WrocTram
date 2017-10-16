@@ -1,0 +1,231 @@
+﻿[
+	{
+		"symbol": "12205",
+		"name": "KWISKA",
+		"lines": [
+			{
+				"line": "32",
+				"direction": "KOZANÓW (DOKERSKA)"
+			},
+			{
+				"line": "31",
+				"direction": "STADION WROCŁAW (KRÓLEWIECKA)"
+			},
+			{
+				"line": "33",
+				"direction": "PILCZYCE"
+			},
+			{
+				"line": "20",
+				"direction": "LEŚNICA"
+			},
+			{
+				"line": "3",
+				"direction": "LEŚNICA"
+			},
+			{
+				"line": "10",
+				"direction": "LEŚNICA"
+			}
+		]
+	},
+	{
+		"symbol": "12206",
+		"name": "KWISKA",
+		"lines": [
+			{
+				"line": "33",
+				"direction": "ZOO"
+			},
+			{
+				"line": "32",
+				"direction": "GAJ"
+			},
+			{
+				"line": "31",
+				"direction": "GAJ"
+			},
+			{
+				"line": "122",
+				"direction": "DWORZEC AUTOBUSOWY"
+			},
+			{
+				"line": "128",
+				"direction": "ZAKRZÓW"
+			},
+			{
+				"line": "20",
+				"direction": "OPORÓW"
+			},
+			{
+				"line": "129",
+				"direction": "POŚWIĘCKA (OŚRODEK ZDROWIA)"
+			},
+			{
+				"line": "10",
+				"direction": "BISKUPIN"
+			},
+			{
+				"line": "3",
+				"direction": "KSIĘŻE MAŁE"
+			},
+			{
+				"line": "119",
+				"direction": "SOŁTYSOWICE (PĘTLA)"
+			},
+			{
+				"line": "128",
+				"direction": "KROMERA"
+			},
+			{
+				"line": "0",
+				"direction": "SOŁTYSOWICE (PĘTLA)"
+			},
+			{
+				"line": "119",
+				"direction": "PL. DANIŁOWSKIEGO"
+			},
+			{
+				"line": "122",
+				"direction": "PETRUSEWICZA"
+			}
+		]
+	},
+	{
+		"symbol": "12303",
+		"name": "KWISKA",
+		"lines": [
+			{
+				"line": "119",
+				"direction": "BLACHARSKA"
+			},
+			{
+				"line": "128",
+				"direction": "PILCZYCE"
+			},
+			{
+				"line": "122",
+				"direction": "NOWY DWÓR (PĘTLA)"
+			},
+			{
+				"line": "129",
+				"direction": "JERZMANOWO (CMENTARZ I)"
+			},
+			{
+				"line": "101",
+				"direction": "KWISKA"
+			},
+			{
+				"line": "607",
+				"direction": "BISKUPICE PODGÓRNE LG DISPLAY"
+			},
+			{
+				"line": "140",
+				"direction": "KWISKA"
+			},
+			{
+				"line": "136",
+				"direction": "GAJ"
+			},
+			{
+				"line": "607",
+				"direction": "KWISKA"
+			},
+			{
+				"line": "101",
+				"direction": "PRACZE ODRZAŃSKIE"
+			},
+			{
+				"line": "136",
+				"direction": "TARNOGAJ"
+			},
+			{
+				"line": "101",
+				"direction": "LEŚNICA"
+			},
+			{
+				"line": "253",
+				"direction": "LEŚNICA"
+			},
+			{
+				"line": "243",
+				"direction": "LEŚNICA"
+			},
+			{
+				"line": "243",
+				"direction": "PILCZYCE"
+			},
+			{
+				"line": "134",
+				"direction": "KSIĘŻE WIELKIE"
+			},
+			{
+				"line": "133",
+				"direction": "GAJ"
+			},
+			{
+				"line": "106",
+				"direction": "PORT LOTNICZY"
+			},
+			{
+				"line": "134",
+				"direction": "NOWY DWÓR (PĘTLA)"
+			},
+			{
+				"line": "319",
+				"direction": "FAT"
+			},
+			{
+				"line": "134",
+				"direction": "TARNOGAJ"
+			},
+			{
+				"line": "607",
+				"direction": "BISKUPICE PODGÓRNE LG ELECTRONICS"
+			},
+			{
+				"line": "319",
+				"direction": "TYNIECKA (PĘTLA)"
+			},
+			{
+				"line": "0",
+				"direction": "TYNIECKA (PĘTLA)"
+			}
+		]
+	},
+	{
+		"symbol": "12304",
+		"name": "KWISKA",
+		"lines": [
+			{
+				"line": "102",
+				"direction": "PL. JANA PAWŁA II"
+			},
+			{
+				"line": "253",
+				"direction": "BARTOSZOWICE (PĘTLA)"
+			},
+			{
+				"line": "243",
+				"direction": "KSIĘŻE WIELKIE"
+			},
+			{
+				"line": "243",
+				"direction": "PETRUSEWICZA"
+			},
+			{
+				"line": "253",
+				"direction": "PETRUSEWICZA"
+			},
+			{
+				"line": "607",
+				"direction": "PL. JANA PAWŁA II"
+			}
+		]
+	},
+	{
+		"symbol": "12318",
+		"name": "KWISKA",
+		"lines": []
+	}
+]
