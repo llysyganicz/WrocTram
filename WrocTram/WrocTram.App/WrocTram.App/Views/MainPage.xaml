@@ -6,7 +6,7 @@
         <StackLayout>
             <Entry Text="{Binding Path=SearchText, Mode=TwoWay}"
                    VerticalOptions="Start" HorizontalOptions="Fill"/>
-            <ListView ItemsSource="{Binding Path=Boards}">
+            <ListView ItemsSource="{Binding Path=Boards}" SelectedItem="{Binding Path=SelectedBoard, Mode=TwoWay}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding Path=Name}" Detail="{Binding Path=Direction}"/>
