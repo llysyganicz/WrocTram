@@ -17,6 +17,8 @@ namespace WrocTram.App.ViewModels
             _nav = SimpleIoc.Default.GetInstance<INavigationService>();
         }
 
+        public bool IsBusy { get; set; }
+
         private string _searchText;
         public string SearchText
         {
@@ -48,8 +50,10 @@ namespace WrocTram.App.ViewModels
 
         private async void ReloadBoards()
         {
+            IsBusy = true;
             var result = await _dataProvider.GetBoards(_searchText);
             Boards = new ObservableCollection<BoardData>(result);
+            IsBusy = false;
         }
     }
 }

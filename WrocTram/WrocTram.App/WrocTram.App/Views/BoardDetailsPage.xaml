@@ -2,38 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WrocTram.App.Views.BoardDetailsPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Odśwież" Command="{Binding Path=Refresh}"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
-            <ListView ItemsSource="{Binding Path=Lines}">
-                <ListView.Header>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                        <Label Text="Linia" Grid.Column="0"/>
-                        <Label Text="Kierunek" Grid.Column="1"/>
-                        <Label Text="Przyjazd" Grid.Column="2"/>
-                    </Grid>
-                </ListView.Header>
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                </Grid.ColumnDefinitions>
-                                <Label Text="{Binding Path=Line}" Grid.Column="0"/>
-                                <Label Text="{Binding Path=Direction}" Grid.Column="1"/>
-                                <Label Text="{Binding Path=MinuteCount}" Grid.Column="2"/>
-                            </Grid>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
+        <AbsoluteLayout HorizontalOptions="FillAndExpand">
+            <StackLayout>
+                <ListView ItemsSource="{Binding Path=Lines}">
+                    <ListView.Header>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="Linia" Grid.Column="0"/>
+                            <Label Text="Kierunek" Grid.Column="1"/>
+                            <Label Text="Przyjazd" Grid.Column="2"/>
+                        </Grid>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding Path=Line}" Grid.Column="0"/>
+                                    <Label Text="{Binding Path=Direction}" Grid.Column="1"/>
+                                    <Label Text="{Binding Path=MinuteCount}" Grid.Column="2"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <ActivityIndicator IsVisible="{Binding Path=IsBusy}" IsRunning="{Binding Path=IsBusy}"
+                               AbsoluteLayout.LayoutBounds="0.5, 0.5, -1, -1" 
+                               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>
