@@ -33,7 +33,7 @@ type DataProvider() =
 
     member this.GetBoards (boardName : string) = 
         let address = boardsAddress + boardName
-        Async.RunSynchronously(getBoardsAsync address)
+        Async.StartAsTask(getBoardsAsync address)
 
     member this.GetLines boardSymbol =
-        Async.RunSynchronously (getBoardDetailsAsync boardSymbol)
+        Async.StartAsTask(getBoardDetailsAsync boardSymbol)

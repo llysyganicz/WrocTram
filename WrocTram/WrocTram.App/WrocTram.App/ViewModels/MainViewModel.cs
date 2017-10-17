@@ -39,14 +39,15 @@ namespace WrocTram.App.ViewModels
             {
                 _selectedBoard = value;
                 if (_selectedBoard == null) return;
-                Messenger.Default.Send(_selectedBoard.Symbol);
                 _nav.NavigateTo("BoardDetails");
+                Messenger.Default.Send(_selectedBoard.Symbol);
             }
         }
 
-        private void ReloadBoards()
+        private async void ReloadBoards()
         {
-            Boards = new ObservableCollection<BoardData>(_dataProvider.GetBoards(_searchText));
+            var result = await _dataProvider.GetBoards(_searchText);
+            Boards = new ObservableCollection<BoardData>(result);
         }
     }
 }

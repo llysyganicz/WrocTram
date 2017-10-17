@@ -17,9 +17,10 @@ namespace WrocTram.App.ViewModels
 
         public ObservableCollection<LineData> Lines { get; set; }
 
-        private void ReloadBoards(string boardSymbol)
+        private async void ReloadBoards(string boardSymbol)
         {
-            Lines = new ObservableCollection<LineData>(_dataProvider.GetLines(boardSymbol));
+            var result = await _dataProvider.GetLines(boardSymbol);
+            Lines = new ObservableCollection<LineData>(result);
         }
     }
 }
