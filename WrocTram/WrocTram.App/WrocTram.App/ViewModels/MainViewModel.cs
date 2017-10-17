@@ -25,6 +25,7 @@ namespace WrocTram.App.ViewModels
             {
                 _searchText = value;
                 if (_searchText?.Length > 3) ReloadBoards();
+                else Boards = null;
                 RaisePropertyChanged();
             }
         }
@@ -41,6 +42,7 @@ namespace WrocTram.App.ViewModels
                 if (_selectedBoard == null) return;
                 _nav.NavigateTo("BoardDetails");
                 Messenger.Default.Send(_selectedBoard.Symbol);
+                _selectedBoard = null;
             }
         }
 
