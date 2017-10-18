@@ -10,27 +10,27 @@
             <StackLayout AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All">
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="0.5*"/>
                         <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Label Text="Linia" Grid.Column="0"/>
-                    <Label Text="Kierunek" Grid.Column="1"/>
-                    <Label Text="Przyjazd" Grid.Column="2"/>
+                    <Label Text="Linia" Grid.Column="0" Style="{StaticResource LabelHeader}"/>
+                    <Label Text="Kierunek" Grid.Column="1" Style="{StaticResource LabelHeader}"/>
+                    <Label Text="Przyjazd" Grid.Column="2" Style="{StaticResource LabelHeader}"/>
                 </Grid>
-                <ListView ItemsSource="{Binding Path=Lines}" HasUnevenRows="True">
+                <ListView ItemsSource="{Binding Path=Lines}" SelectedItem="{Binding Path=SelectedLine, Mode=TwoWay}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="0.5*"/>
                                         <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="3*"/>
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
-                                    <Label Text="{Binding Path=Line}" Grid.Column="0"/>
-                                    <Label Text="{Binding Path=Direction}" Grid.Column="1"/>
-                                    <Label Text="{Binding Path=MinuteCount}" Grid.Column="2"/>
+                                    <Label Text="{Binding Path=Line}" Grid.Column="0" Style="{StaticResource LabelNormal}"/>
+                                    <Label Text="{Binding Path=Direction}" Grid.Column="1" Style="{StaticResource LabelNormal}"/>
+                                    <Label Text="{Binding Path=MinuteCount}" Grid.Column="2" Style="{StaticResource LabelNormal}"/>
                                 </Grid>
                             </ViewCell>
                         </DataTemplate>
